@@ -9,3 +9,17 @@ export const dec = () => {
     type: "dec",
   };
 };
+
+export const div = (num) => {
+  return {
+    type: "div",
+    acc: num,
+  };
+};
+
+export const mul = (num) => {
+  return {
+    type: "mul",
+    acc: num,
+  };
+};
